@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crafting The Universe (Clãs)</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d021d;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #220044;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      position: relative;
+      text-align: center;
+      padding: 100px 20px;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('83c2c7dc-1b5c-4917-bd47-da7c05ddafe9.png') center/cover no-repeat;
+      filter: brightness(0.4);
+      z-index: -1;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background-color: #9900ff;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin: 5px 0;
+    }
+    .countdown {
+      font-size: 1.5em;
+      margin-top: 20px;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+    .card {
+      background-color: #1f0033;
+      border-radius: 15px;
+      padding: 20px;
+      flex: 1 1 220px;
+      text-align: center;
+    }
+    .faq details {
+      background: #180030;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #12001f;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9em;
+    }
+    ul li {
+      list-style: none;
+    }
+    hr {
+      border: 1px solid #660099;
+      margin: 40px 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Crafting The Universe">
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#regras">Regras</a>
+      <a href="#faq">FAQ</a>
+      <a href="#clans">Clãs</a>
+      <a href="#contato">Contato</a>
+      <a href="#redes">Redes Sociais</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h1>Crafting The Universe (Clãs)</h1>
+    <p>Servidor de clãs | Versões 1.21.93 (Bedrock) e 1.21.70 (Java)</p>
+    <a href="#eventos" class="btn">🎮 Jogar Agora</a>
+    <div class="countdown">⏳ Carregando contagem regressiva...</div>
+  </section>
+<section class="section" style="background: url('4e27d740-d410-48d5-80bd-259cf02a44d7.png') center/cover no-repeat; text-align: center; padding: 80px 20px;">
+  <img src="846e0ad6-39cb-45f2-a6ab-eecd2d370743.png" alt="Logo Crafting The Universe" style="max-width: 350px; margin-bottom: 20px;">
+  <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; color: white;">
+    <div style="font-size: 1.2em;">
+      <a href="https://darckzin-universe.github.io/Crafting-the-Universe/" target="_blank" style="color: white; text-decoration: none;">
+        <strong style="font-size: 1.4em;">🔥 CONECTE-SE JÁ!</strong><br>
+        20 online • Clique para jogar
+      </a>
+    </div>
+    <div>
+      <a class="btn" style="background-color: #5865F2;" href="https://discord.gg/VFSZyxVW" target="_blank">Entrar no Discord</a>
+    </div>
+  </div>
+</section>
+  <section id="eventos" class="section">
+    <h2>🔥 Evento: Guerra de Clãs</h2>
+    <img src="evento.jpg" alt="Imagem do Evento" style="max-width:100%; border-radius:10px;">
+    <p>A Guerra de Clãs será realizada em uma seed separada no dia <strong>18 de julho de 2025 às 19h</strong>! Prepare-se para enfrentar inimigos, conquistar baús especiais (ferro, ouro e diamante) e mostrar a força do seu clã. Alianças serão desfeitas no dia do evento e apenas um clã será o vencedor!</p>
+    <hr>
+    <h3>👤 Personagem Oficial: Kannor</h3>
+    <img src="kannor.jpg" alt="Kannor" style="max-width:300px; border-radius:15px;">
+    <p><strong>Kannor</strong> é um explorador misterioso vindo de uma dimensão esquecida. Com habilidades únicas em combate e conhecimento ancestral das ruínas perdidas, ele guia os jogadores em missões especiais e guarda segredos antigos do universo dos blocos. Seu passado é envolto em sombras, mas sua bravura é lendária.</p>
+  </section>
+
+  <hr>
+  <section id="regras" class="section">
+    <h2>📜 Regras do Servidor Minecraft</h2>
+    <ul>
+      <li>❌ Sem ofensas ou xingamentos. Respeito acima de tudo!</li>
+      <li>🏠 É proibido roubar ou destruir construções (exceto durante eventos como Guerra de Clãs).</li>
+      <li>⚔️ Nada de matar jogadores sem contexto ou permissão.</li>
+      <li>🤝 Duplas e alianças só com consentimento de ambas as partes.</li>
+      <li>🔗 Links externos somente com autorização da staff.</li>
+      <li>🚪 Novos membros devem ser autorizados pela administração.</li>
+      <li>🧩 Regras adicionais de eventos serão divulgadas com antecedência.</li>
+      <li>⚠️ Quebrar regras pode gerar punições como advertência, castigo ou banimento.</li>
+    </ul>
+    <hr>
+    <h3>📱 Regras do WhatsApp</h3>
+    <ul>
+      <li>🙋‍♂️ Respeito sempre! Ofensas, preconceitos ou provocações pesadas não serão toleradas.</li>
+      <li>💬 Grupo é focado no servidor. Assuntos aleatórios só com moderação.</li>
+      <li>🚫 Sem flood ou spam: mensagens repetidas, emojis em excesso ou figurinhas demais.</li>
+      <li>🔞 Proibido qualquer conteúdo NSFW (pornografia, violência, etc).</li>
+      <li>🔒 Nada de links suspeitos ou divulgação sem permissão da staff.</li>
+      <li>🛡️ Preserve sua privacidade e a dos outros. Sem compartilhar dados pessoais.</li>
+      <li>🎓 Respeite os moderadores e administradores.</li>
+      <li>📢 Denúncias e sugestões devem ser feitas no privado com maturidade.</li>
+      <li>🎧 Evite áudios longos — prefira escrever ou seja direto.</li>
+      <li>🧠 Use o bom senso! Se acha que vai dar problema... evite!</li>
+    </ul>
+    <hr>
+    <h3>🎮 Regras do Discord</h3>
+    <ul>
+      <li>🤝 Respeite todos os membros. Zoeiras são bem-vindas, ofensas não.</li>
+      <li>🚫 Racismo, homofobia, xenofobia e discursos de ódio serão punidos severamente.</li>
+      <li>🧱 Não exclua jogadores por plataforma, estilo de jogo ou experiência.</li>
+      <li>💥 Proibido spam, flood, conteúdo NSFW ou links maliciosos.</li>
+      <li>🚫 Divulgação sem permissão da staff é proibida.</li>
+      <li>📂 Use os canais corretos e evite tretas ou discussões desnecessárias.</li>
+      <li>🔐 Não revele dados pessoais de ninguém (doxing é crime).</li>
+      <li>🗣️ Em chamadas de voz: evite gritos, ruídos ou voz distorcida para trollar.</li>
+      <li>🤖 Apenas bots autorizados pela administração.</li>
+      <li>🧠 Use o bom senso e mantenha o ambiente saudável.</li>
+      <li>👮‍♂️ A palavra final é da administração — respeite as decisões.</li>
+    </ul>
+  </section>
+
+  <hr>
+  <section id="clans" class="section">
+    <h2>🏰 Clãs Participantes</h2>
+    <div class="cards">
+      <div class="card">🌀 Ordem do Caos</div>
+      <div class="card">🛡️ Ordem de Ferro</div>
+      <div class="card">⚔️ Lâminas do Norte</div>
+      <div class="card">🚂 Trem Bala</div>
+      <div class="card">🏗️ Construtores do Infinito</div>
+      <div class="card">🛡️ Escudos Eternos</div>
+      <div class="card">🚄 Trem Bala 2.0</div>
+      <div class="card">💀 Lazarus</div>
+      <div class="card">🌑 Druidas do Eclipse</div>
+      <div class="card">🌅 Alvorada Selvagem</div>
+    </div>
+  </section>
+
+  <hr>
+  <section id="faq" class="section faq">
+    <h2>❓ FAQ</h2>
+    <details>
+      <summary>🎮 Quais versões são suportadas?</summary>
+      <p>Versões: 1.21.93 (Bedrock) e 1.21.70 (Java)</p>
+    </details>
+    <details>
+      <summary>🌎 O servidor é crossplay?</summary>
+      <p>Sim! Jogadores de Bedrock e Java podem jogar juntos.</p>
+    </details>
+    <details>
+      <summary>🛠️ Como entrar em um clã?</summary>
+      <p>Participe pelo Discord ou WhatsApp e converse com os líderes!</p>
+    </details>
+  </section>
+
+  <hr>
+  <section id="contato" class="section">
+    <h2>📞 Contato</h2>
+    <p>Entre em contato conosco pelas redes abaixo:</p>
+    <a class="btn" href="https://discord.gg/VFSZyxVW" target="_blank">💬 Entrar no Discord</a>
+    <a class="btn" href="https://chat.whatsapp.com/LHhykFMecX19GhsjNY7YkT" target="_blank">📱 Entrar no WhatsApp</a>
+  </section>
+
+  <hr>
+  <section id="redes" class="section">
+    <h2>🌐 Redes Sociais</h2>
+    <a class="btn" href="https://www.instagram.com/crafting_the_universe?igsh=eHNpOXN4MDJucmpw" target="_blank">📸 Instagram</a>
+  </section>
+
+  <hr>
+  <footer>
+    <p>&copy; 2025 Crafting The Universe. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    const countdownElement = document.querySelector('.countdown');
+
+    function updateCountdown() {
+      const eventDate = new Date("2025-07-18T19:00:00-03:00");
+      const now = new Date();
+      const diff = eventDate - now;
+
+      if (diff <= 0) {
+        countdownElement.textContent = "🚨 A Guerra de Clãs já começou!";
+        return;
+      }
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((diff / (1000 * 60)) % 60);
+      const seconds = Math.floor((diff / 1000) % 60);
+
+      countdownElement.textContent = `⏳ Faltam ${days}d ${hours}h ${minutes}m ${seconds}s para a Guerra de Clãs!`;
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  </script>
+</body>
+</html>
